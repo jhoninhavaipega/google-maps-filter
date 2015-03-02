@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html lang="pt-br"> <![endif]-->
+<!--[if IE 9 ]> <html lang="pt-br"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+  <link rel="icon" href="/favicon.png">
+
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="public/javascripts/libs/structure.js"></script>
+  <![endif]-->
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="public/stylesheets/stylesheet.css">
+</head>
+<body>
+
+  <form>
+    <div>
+      <label>select state</label>
+      <select data-type="state" id="states"></select>
+    </div>
+
+    <div>
+      <label>select city</label>
+      <select data-type="city" id="cities"></select>
+    </div>
+
+    <div>
+      <label>select shopping</label>
+      <select data-type="shopping" id="shoppings"></select>
+    </div>
+  </form>
+
+  <div id="map"></div>
+
+  <!-- maps -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=FLASE"></script>
+
+  <!-- plugins -->
+  <script type="text/javascript" src="public/javascripts/libs/plugins.js"></script>
+
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="public/javascripts/libs/functionality.js"></script>
+  <![endif]-->
+
+  <!-- application -->
+  <script type="text/javascript" src="public/javascripts/application.js"></script>
+
+</body>
+</html>

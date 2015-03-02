@@ -1,0 +1,73 @@
+{
+  "states": [
+    {
+      "name": "SP"
+    },
+
+    {
+      "name": "RJ"
+    }
+  ],
+  "cities": [
+    {
+      "state": "SP",
+      "name": "São Paulo"
+    },
+
+    {
+      "state": "SP",
+      "name": "Osasco"
+    },
+
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro"
+    },
+
+    {
+      "state": "RJ",
+      "name": "Sei La"
+    }
+  ],
+  "shoppings": [
+    {
+      "state": "SP",
+      "city": "São Paulo",
+      "name": "Olha la1",
+      "lat": "9.96233",
+      "lng": "49.80404"
+    },
+
+    {
+      "state": "SP",
+      "city": "São Paulo",
+      "name": "Olha la2",
+      "lat": "9.66089",
+      "lng": "48.70158"
+    },
+
+    {
+      "state": "SP",
+      "city": "São Paulo",
+      "name": "Olha la3",
+      "lat": "9.93368",
+      "lng": "53.55608"
+    },
+
+    {
+      "state": "SP",
+      "city": "São Paulo",
+      "name": "Olha la4",
+      "lat": "11.56122",
+      "lng": "48.14496"
+    },
+
+    {
+      "state": "RJ",
+      "city": "Rio de Janeiro",
+      "name": "Epa Nenem",
+      "lat": "6.11499",
+      "lng": "50.76891"
+    }
+  ]
+}
